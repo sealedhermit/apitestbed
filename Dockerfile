@@ -17,6 +17,8 @@ RUN pip install rasa==2.8.14
 
 RUN pip install pandas
 
+RUN pip install python-dotenv
+
 ADD config.yml config.yml
 ADD domain.yml domain.yml
 ADD credentials.yml credentials.yml
